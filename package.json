@@ -1,6 +1,6 @@
 {
   "name": "ck-viewport",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A utility for batch executing functions on viewport events",
   "main": "dist/index.js",
   "module": "src/viewport.js",
