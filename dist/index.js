@@ -119,11 +119,6 @@ function visibilityChange() {
 }
 
 function listen() {
-  // safety check to make sure multiple listeners aren't added
-  document.removeEventListener('visibilitychange', visibilityChange);
-  window.removeEventListener('resize', sizeChange);
-  window.removeEventListener('orientationchange', sizeChange);
-  // add event listeners
   document.addEventListener('visibilitychange', visibilityChange);
   window.addEventListener('resize', sizeChange);
   window.addEventListener('orientationchange', sizeChange);

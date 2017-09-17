@@ -19,12 +19,12 @@ One event handler is attached for each event type and all functions are batched 
 ## Usage
 
 ```javascript
-import Viewport from 'viewport';
+import Viewport from 'ck-viewport';
 ```
 
 ```javascript
-<script type='text/javascript' src='/dist/viewport.js'></script>
-<script type='text/javascript' src='/dist/viewport.min.js'></script>
+<script type='text/javascript' src='/dist/ck-viewport.js'></script>
+<script type='text/javascript' src='/dist/ck-viewport.min.js'></script>
 ```
 
 ```javascript
