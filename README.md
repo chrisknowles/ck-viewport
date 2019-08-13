@@ -18,6 +18,10 @@ One event handler is attached for each event type and all functions are batched 
 
 ## Usage
 
+```
+$ npm install ck-viewport
+```
+
 ```javascript
 import Viewport from 'ck-viewport';
 ```
